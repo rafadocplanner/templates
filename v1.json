@@ -1,0 +1,2387 @@
+{
+	"tabs": [
+		{
+			"name": "Locations",
+			"linker": "locations",
+			"id": "1637240460350",
+			"index": 0
+		},
+		{
+			"name": "Resources",
+			"id": "1637339255944",
+			"linker": "resources-bmd",
+			"index": 1
+		},
+		{
+			"name": "Activities",
+			"linker": "activities-9k5",
+			"id": "1637339695712",
+			"index": 2
+		},
+		{
+			"name": "Insurances",
+			"linker": "insurances-srx",
+			"id": "1637339706422",
+			"index": 3
+		},
+		{
+			"name": "Availabilities",
+			"linker": "availabilities-04i",
+			"id": "1637339715819",
+			"index": 4
+		},
+		{
+			"name": "Appointments",
+			"linker": "appointments-mjr",
+			"id": "1637339733395",
+			"index": 5
+		},
+		{
+			"name": "test",
+			"linker": "test",
+			"id": "1637532249563",
+			"index": 6
+		}
+	],
+	"components": [
+		{
+			"id": "1637339394542",
+			"component": "code",
+			"tab": "1637339255944",
+			"name": "Code",
+			"x": 270,
+			"y": 37,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339394500"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637339989557",
+			"component": "code",
+			"tab": "1637339695712",
+			"name": "Code",
+			"x": 270,
+			"y": 24,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339989521"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637340092139",
+			"component": "code",
+			"tab": "1637339706422",
+			"name": "Code",
+			"x": 280,
+			"y": 24,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340092105"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637340727030",
+			"component": "code",
+			"tab": "1637339715819",
+			"name": "Code",
+			"x": 280,
+			"y": 24,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340726996"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637340919022",
+			"component": "code",
+			"tab": "1637339733395",
+			"name": "Code",
+			"x": 316,
+			"y": 24,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340918987"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637340941043",
+			"component": "code",
+			"tab": "1637339733395",
+			"name": "Code",
+			"x": 365,
+			"y": 320,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340940994"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637341188772",
+			"component": "code",
+			"tab": "1637339733395",
+			"name": "Code",
+			"x": 309,
+			"y": 651,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637341188737"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637339394574",
+			"component": "counter",
+			"tab": "1637339255944",
+			"name": "Counter",
+			"x": 271,
+			"y": 146,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637339989587",
+			"component": "counter",
+			"tab": "1637339695712",
+			"name": "Counter",
+			"x": 271,
+			"y": 133,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340092169",
+			"component": "counter",
+			"tab": "1637339706422",
+			"name": "Counter",
+			"x": 281,
+			"y": 133,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340727060",
+			"component": "counter",
+			"tab": "1637339715819",
+			"name": "Counter",
+			"x": 281,
+			"y": 133,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340919051",
+			"component": "counter",
+			"tab": "1637339733395",
+			"name": "Counter",
+			"x": 333,
+			"y": 142,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340941075",
+			"component": "counter",
+			"tab": "1637339733395",
+			"name": "Counter",
+			"x": 356,
+			"y": 473,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637341188802",
+			"component": "counter",
+			"tab": "1637339733395",
+			"name": "Counter",
+			"x": 286,
+			"y": 760,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637339394532",
+			"component": "debug",
+			"tab": "1637339255944",
+			"name": "Debug",
+			"x": 884,
+			"y": 152,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637339989547",
+			"component": "debug",
+			"tab": "1637339695712",
+			"name": "Debug",
+			"x": 884,
+			"y": 139,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340092130",
+			"component": "debug",
+			"tab": "1637339706422",
+			"name": "Debug",
+			"x": 894,
+			"y": 139,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340727020",
+			"component": "debug",
+			"tab": "1637339715819",
+			"name": "Debug",
+			"x": 894,
+			"y": 139,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340919011",
+			"component": "debug",
+			"tab": "1637339733395",
+			"name": "Debug",
+			"x": 894,
+			"y": 139,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637340941033",
+			"component": "debug",
+			"tab": "1637339733395",
+			"name": "Debug",
+			"x": 890,
+			"y": 439,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637341188761",
+			"component": "debug",
+			"tab": "1637339733395",
+			"name": "Debug",
+			"x": 899,
+			"y": 766,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637339394500",
+			"component": "httprequest",
+			"tab": "1637339255944",
+			"name": "HTTP Request",
+			"x": 426,
+			"y": 35,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339394522"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"keepalive": true,
+				"persistentcookies": true,
+				"stringify": "encoded",
+				"method": "GET",
+				"url": "{url}/getresources?token={token}"
+			}
+		},
+		{
+			"id": "1637339989521",
+			"component": "httprequest",
+			"tab": "1637339695712",
+			"name": "HTTP Request",
+			"x": 426,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339989537"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"url": "{url}/getactivities?token={token}",
+				"method": "GET",
+				"stringify": "encoded",
+				"persistentcookies": true,
+				"keepalive": true,
+				"keepmessage": true
+			}
+		},
+		{
+			"id": "1637340092105",
+			"component": "httprequest",
+			"tab": "1637339706422",
+			"name": "HTTP Request",
+			"x": 436,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340092120"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"keepalive": true,
+				"persistentcookies": true,
+				"stringify": "encoded",
+				"method": "GET",
+				"url": "{url}/getinsurances?token={token}"
+			}
+		},
+		{
+			"id": "1637340726996",
+			"component": "httprequest",
+			"tab": "1637339715819",
+			"name": "HTTP Request",
+			"x": 436,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340727010"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"url": "{url}/searchavailabilities?token={token}",
+				"method": "GET",
+				"stringify": "encoded",
+				"persistentcookies": true,
+				"keepalive": true,
+				"keepmessage": true
+			}
+		},
+		{
+			"id": "1637340918987",
+			"component": "httprequest",
+			"tab": "1637339733395",
+			"name": "HTTP Request",
+			"x": 436,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340919001"
+					},
+					{
+						"index": "0",
+						"id": "1637340919011"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"keepalive": true,
+				"persistentcookies": true,
+				"stringify": "encoded",
+				"method": "GET",
+				"url": "{url}/addAppointment?token={token}"
+			}
+		},
+		{
+			"id": "1637340940994",
+			"component": "httprequest",
+			"tab": "1637339733395",
+			"name": "HTTP Request",
+			"x": 492,
+			"y": 322,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340941023"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"url": "{url}/deleteappointment?token={token}",
+				"method": "GET",
+				"stringify": "encoded",
+				"persistentcookies": true,
+				"keepalive": true,
+				"keepmessage": true
+			}
+		},
+		{
+			"id": "1637341188737",
+			"component": "httprequest",
+			"tab": "1637339733395",
+			"name": "HTTP Request",
+			"x": 441,
+			"y": 649,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637341188751"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"keepalive": true,
+				"persistentcookies": true,
+				"stringify": "encoded",
+				"method": "GET",
+				"url": "{url}/getappointments?token={token}"
+			}
+		},
+		{
+			"id": "1637339394563",
+			"component": "httpresponse",
+			"tab": "1637339255944",
+			"name": "HTTP Response",
+			"x": 881,
+			"y": 34,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"datatype": "json"
+			}
+		},
+		{
+			"id": "1637339989577",
+			"component": "httpresponse",
+			"tab": "1637339695712",
+			"name": "HTTP Response",
+			"x": 881,
+			"y": 21,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"datatype": "json"
+			}
+		},
+		{
+			"id": "1637340092159",
+			"component": "httpresponse",
+			"tab": "1637339706422",
+			"name": "HTTP Response",
+			"x": 891,
+			"y": 21,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"datatype": "json"
+			}
+		},
+		{
+			"id": "1637340727050",
+			"component": "httpresponse",
+			"tab": "1637339715819",
+			"name": "HTTP Response",
+			"x": 891,
+			"y": 21,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"datatype": "json"
+			}
+		},
+		{
+			"id": "1637340919041",
+			"component": "httpresponse",
+			"tab": "1637339733395",
+			"name": "HTTP Response",
+			"x": 891,
+			"y": 21,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"datatype": "json"
+			}
+		},
+		{
+			"id": "1637340941065",
+			"component": "httpresponse",
+			"tab": "1637339733395",
+			"name": "HTTP Response",
+			"x": 887,
+			"y": 321,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"datatype": "json"
+			}
+		},
+		{
+			"id": "1637341188793",
+			"component": "httpresponse",
+			"tab": "1637339733395",
+			"name": "HTTP Response",
+			"x": 896,
+			"y": 648,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"datatype": "json"
+			}
+		},
+		{
+			"id": "1637339394552",
+			"component": "httproute",
+			"tab": "1637339255944",
+			"name": "GET /getresources",
+			"x": 57,
+			"y": 35,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339394542"
+					},
+					{
+						"index": "0",
+						"id": "1637339394574"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Listening",
+				"color": "green"
+			},
+			"color": "#5D9CEC",
+			"notes": "### Configuration\n\n- __GET /getresources__\n- flags: \n- maximum request data length: __5 kB__\n- empty response: __undefined__\n- cache policy: __no cache__\n- cache expire: __5 minutes__",
+			"cloning": false,
+			"options": {
+				"timeout": 5,
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"size": 5,
+				"url": "/getresources",
+				"method": "GET",
+				"flags": [
+					"id:1637339394552",
+					"get",
+					5000
+				],
+				"name": ""
+			}
+		},
+		{
+			"id": "1637339989567",
+			"component": "httproute",
+			"tab": "1637339695712",
+			"name": "HTTP Route",
+			"x": 57,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339989557"
+					},
+					{
+						"index": "0",
+						"id": "1637339989587"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Listening",
+				"color": "green"
+			},
+			"color": "#5D9CEC",
+			"notes": "### Configuration\n\n- __GET /getactivities__\n- flags: \n- maximum request data length: __5 kB__\n- empty response: __undefined__\n- cache policy: __no cache__\n- cache expire: __5 minutes__",
+			"cloning": false,
+			"options": {
+				"timeout": 5,
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"size": 5,
+				"url": "/getactivities",
+				"method": "GET",
+				"name": "",
+				"flags": [
+					"id:1637339989567",
+					"get",
+					5000
+				]
+			}
+		},
+		{
+			"id": "1637340092149",
+			"component": "httproute",
+			"tab": "1637339706422",
+			"name": "HTTP Route",
+			"x": 67,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340092169"
+					},
+					{
+						"index": "0",
+						"id": "1637340092139"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Listening",
+				"color": "green"
+			},
+			"color": "#5D9CEC",
+			"notes": "### Configuration\n\n- __GET /getinsurances__\n- flags: \n- maximum request data length: __5 kB__\n- empty response: __undefined__\n- cache policy: __no cache__\n- cache expire: __5 minutes__",
+			"cloning": false,
+			"options": {
+				"timeout": 5,
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"size": 5,
+				"url": "/getinsurances",
+				"method": "GET",
+				"flags": [
+					"id:1637340092149",
+					"get",
+					5000
+				],
+				"name": ""
+			}
+		},
+		{
+			"id": "1637340727040",
+			"component": "httproute",
+			"tab": "1637339715819",
+			"name": "HTTP Route",
+			"x": 67,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340727060"
+					},
+					{
+						"index": "0",
+						"id": "1637340727030"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Listening",
+				"color": "green"
+			},
+			"color": "#5D9CEC",
+			"notes": "### Configuration\n\n- __GET /searchavailabilities__\n- flags: \n- maximum request data length: __5 kB__\n- empty response: __undefined__\n- cache policy: __no cache__\n- cache expire: __5 minutes__",
+			"cloning": false,
+			"options": {
+				"timeout": 5,
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"size": 5,
+				"url": "/searchavailabilities",
+				"method": "GET",
+				"name": "",
+				"flags": [
+					"id:1637340727040",
+					"get",
+					5000
+				]
+			}
+		},
+		{
+			"id": "1637340919031",
+			"component": "httproute",
+			"tab": "1637339733395",
+			"name": "POST /addappointment",
+			"x": 67,
+			"y": 22,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340919051"
+					},
+					{
+						"index": "0",
+						"id": "1637340919022"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Listening",
+				"color": "green"
+			},
+			"color": "#5D9CEC",
+			"notes": "### Configuration\n\n- __POST /addAppointment__\n- flags: \n- maximum request data length: __5 kB__\n- empty response: __undefined__\n- cache policy: __no cache__\n- cache expire: __5 minutes__",
+			"cloning": false,
+			"options": {
+				"timeout": 5,
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"size": 5,
+				"url": "/addAppointment",
+				"method": "POST",
+				"flags": [
+					"id:1637340919031",
+					"post",
+					5000
+				],
+				"name": ""
+			}
+		},
+		{
+			"id": "1637340941055",
+			"component": "httproute",
+			"tab": "1637339733395",
+			"name": "DELETE /deleteappointment",
+			"x": 63,
+			"y": 322,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340941075"
+					},
+					{
+						"index": "0",
+						"id": "1637340941043"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Listening",
+				"color": "green"
+			},
+			"color": "#5D9CEC",
+			"notes": "### Configuration\n\n- __DELETE /deleteappointment__\n- flags: \n- maximum request data length: __5 kB__\n- empty response: __undefined__\n- cache policy: __no cache__\n- cache expire: __5 minutes__",
+			"cloning": false,
+			"options": {
+				"timeout": 5,
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"size": 5,
+				"url": "/deleteappointment",
+				"method": "DELETE",
+				"name": "",
+				"flags": [
+					"id:1637340941055",
+					"delete",
+					5000
+				]
+			}
+		},
+		{
+			"id": "1637341188782",
+			"component": "httproute",
+			"tab": "1637339733395",
+			"name": "GET /getappointents",
+			"x": 72,
+			"y": 649,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637341188802"
+					},
+					{
+						"index": "0",
+						"id": "1637341188772"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Listening",
+				"color": "green"
+			},
+			"color": "#5D9CEC",
+			"notes": "### Configuration\n\n- __GET /getappointments__\n- flags: \n- maximum request data length: __5 kB__\n- empty response: __undefined__\n- cache policy: __no cache__\n- cache expire: __5 minutes__",
+			"cloning": false,
+			"options": {
+				"timeout": 5,
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"size": 5,
+				"url": "/getappointments",
+				"method": "GET",
+				"flags": [
+					"id:1637341188782",
+					"get",
+					5000
+				],
+				"name": ""
+			}
+		},
+		{
+			"id": "1637339394522",
+			"component": "transform",
+			"tab": "1637339255944",
+			"name": "Data Transformation",
+			"x": 639,
+			"y": 33,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339394532"
+					},
+					{
+						"index": "0",
+						"id": "1637339394563"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637339989537",
+			"component": "transform",
+			"tab": "1637339695712",
+			"name": "Data Transformation",
+			"x": 639,
+			"y": 20,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339989547"
+					},
+					{
+						"index": "0",
+						"id": "1637339989577"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637340092120",
+			"component": "transform",
+			"tab": "1637339706422",
+			"name": "Data Transformation",
+			"x": 649,
+			"y": 20,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340092130"
+					},
+					{
+						"index": "0",
+						"id": "1637340092159"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637340727010",
+			"component": "transform",
+			"tab": "1637339715819",
+			"name": "Data Transformation",
+			"x": 649,
+			"y": 20,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340727020"
+					},
+					{
+						"index": "0",
+						"id": "1637340727050"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637340919001",
+			"component": "transform",
+			"tab": "1637339733395",
+			"name": "Data Transformation",
+			"x": 649,
+			"y": 20,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340919011"
+					},
+					{
+						"index": "0",
+						"id": "1637340919041"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637340941023",
+			"component": "transform",
+			"tab": "1637339733395",
+			"name": "Data Transformation",
+			"x": 675,
+			"y": 320,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340941033"
+					},
+					{
+						"index": "0",
+						"id": "1637340941065"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637341188751",
+			"component": "transform",
+			"tab": "1637339733395",
+			"name": "Data Transformation",
+			"x": 654,
+			"y": 647,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637341188761"
+					},
+					{
+						"index": "0",
+						"id": "1637341188793"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637340669324",
+			"component": "transform",
+			"tab": "1637240460350",
+			"name": "Data Transformation v3",
+			"x": 561,
+			"y": 384,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload, results = [];\nvar collection = JSON.parse(value.data).return.results;\n\nfor(let i = 0; i < collection.length; i++){\n\titem = {\n\t\t\"activity_lid\": collection[i].activityid,\n\t\t\"name\": collection[i].activityTitle,\n\t\t\"group\": {\n\t\t\t\"group_lid\": collection[i].typologyid,\n\t\t\t\"name\": collection[i].typologyTitle\n\t\t},\n\t\t\"duration\": collection[i].duration,\n\t\t\"notice\": null,\n\t\t\"operator_notice\": null,\n\t\t\"preparation\": collection[i].preparation,\n\t\t\"web_enabled\": true,\n\t\t\"active\": true\n    };\n\tresults.push(item);\n}\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"results\" : results,\n\t\"count\" : results.length\n};\n\nnext(payload)",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637339394514",
+			"component": "trigger",
+			"tab": "1637339255944",
+			"name": "Trigger",
+			"x": 61,
+			"y": 153,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339394542"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637339989531",
+			"component": "trigger",
+			"tab": "1637339695712",
+			"name": "Trigger",
+			"x": 61,
+			"y": 140,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637339989557"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637340092113",
+			"component": "trigger",
+			"tab": "1637339706422",
+			"name": "Trigger",
+			"x": 71,
+			"y": 140,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340092139"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637340727004",
+			"component": "trigger",
+			"tab": "1637339715819",
+			"name": "Trigger",
+			"x": 71,
+			"y": 140,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340727030"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637340918995",
+			"component": "trigger",
+			"tab": "1637339733395",
+			"name": "Trigger",
+			"x": 141,
+			"y": 143,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340919022"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637340941017",
+			"component": "trigger",
+			"tab": "1637339733395",
+			"name": "Trigger",
+			"x": 185,
+			"y": 464,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637340941043"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": [
+					0
+				]
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637341188744",
+			"component": "trigger",
+			"tab": "1637339733395",
+			"name": "Trigger",
+			"x": 76,
+			"y": 767,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637341188772"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637240736634",
+			"component": "trigger",
+			"tab": "1637240460350",
+			"name": "Trigger",
+			"x": 38,
+			"y": 149,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#F6BB42",
+			"notes": "",
+			"options": {
+				"datatype": "float",
+				"data": "2.33"
+			}
+		},
+		{
+			"id": "1637532251226",
+			"component": "restschema",
+			"tab": "1637532249563",
+			"name": "Location",
+			"x": 73.04620361328125,
+			"y": 271.13043212890625,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "location",
+				"color": "gray"
+			},
+			"color": "#53B04A",
+			"notes": "",
+			"options": {
+				"code": "schema.define('result', 'String(1)', true);\nschema.define('return', 'array', true);\n\nschema.setQuery(function($, model) {\n\t/*\n\tvar message = 'Hi, ' + model.name;\n\n\tif (model.age)\n\t\tmessage += '(' + model.age + ')';\n\n\t*/\n\tvar message = 'Hi, this is a Query without model';\n\t$.success(message);\n});",
+				"name": "location"
+			}
+		},
+		{
+			"id": "1637532251234",
+			"component": "restroute",
+			"tab": "1637532249563",
+			"name": "Route",
+			"x": 61.480987548828125,
+			"y": 82.34782409667969,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637532251250"
+					},
+					{
+						"index": "0",
+						"id": "1637532251281"
+					},
+					{
+						"index": "0",
+						"id": "1637534355810"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "location: [query]",
+				"color": "gray"
+			},
+			"color": "#6B9CE6",
+			"notes": "### Configuration\n\n- __GET /locations__\n- authorization: __false__\n- auto-responding: __false__\n- maximum request data length: __5 kB__\n- timeout for response: __5 seconds__\n- cache: __no cache__\n---\n- schema: __default/location__\n- operation: __query__\n- response: __query__",
+			"cloning": false,
+			"options": {
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"timeout": 5,
+				"respond": false,
+				"output": "query",
+				"operation": [
+					"query"
+				],
+				"length": 5,
+				"middleware": [],
+				"auth": false,
+				"duration": true,
+				"url": "/locations",
+				"method": "GET",
+				"name": "",
+				"schema": "default/location"
+			}
+		},
+		{
+			"id": "1637532251250",
+			"component": "counter",
+			"tab": "1637532249563",
+			"name": "Counter",
+			"x": 311.30706787109375,
+			"y": 360.47825622558594,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637532251260",
+			"component": "restresponse",
+			"tab": "1637532249563",
+			"name": "Response",
+			"x": 819.5679473876953,
+			"y": 61,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637532251271"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#B0331B",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637532251271",
+			"component": "dashboardanalytics",
+			"tab": "1637532249563",
+			"name": "Locations",
+			"x": 989.8288116455078,
+			"y": 56.695648193359375,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637532323767"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "0.35 ms",
+				"color": "gray"
+			},
+			"color": "#5CB36D",
+			"notes": "",
+			"options": {
+				"statsyears": 5,
+				"statsmonths": 12,
+				"statsdays": 14,
+				"statshours": 24,
+				"decimals": 2,
+				"format": "{0} ms",
+				"fn": "next(value);",
+				"type": "avg"
+			}
+		},
+		{
+			"id": "1637532251281",
+			"component": "code",
+			"tab": "1637532249563",
+			"name": "Code",
+			"x": 230,
+			"y": 75.2608642578125,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637532251293"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url = FLOW.variables.base_url;\nrepository.token = FLOW.variables.token;\nrepository.user = FLOW.variables.user;\nrepository.pass = FLOW.variables.pass;\n\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637532251293",
+			"component": "httprequest",
+			"tab": "1637532249563",
+			"name": "HTTP Request",
+			"x": 380,
+			"y": 73.2608642578125,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637532251303"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"userpassword": "",
+				"username": "",
+				"url": "{url}/getlocations?token={token}",
+				"method": "GET",
+				"stringify": "encoded",
+				"persistentcookies": true,
+				"keepalive": true,
+				"keepmessage": true
+			}
+		},
+		{
+			"id": "1637532251303",
+			"component": "transform",
+			"tab": "1637532249563",
+			"name": "Data Transformation v1",
+			"x": 579,
+			"y": 65.2608642578125,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637532251260"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637532323767",
+			"component": "debug",
+			"tab": "1637532249563",
+			"name": "endFlow",
+			"x": 1158.654884338379,
+			"y": 53.869564056396484,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Disabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": false
+			}
+		},
+		{
+			"id": "1637534355810",
+			"component": "debug",
+			"tab": "1637532249563",
+			"name": "Input",
+			"x": 319.1331481933594,
+			"y": 220.86956405639648,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637655605756",
+			"component": "restschema",
+			"tab": "1637240460350",
+			"name": "Locations",
+			"x": 36.04620361328125,
+			"y": 318.26086807250977,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "locations",
+				"color": "gray"
+			},
+			"color": "#53B04A",
+			"notes": "",
+			"options": {
+				"code": "schema.define('result', 'String(2)', true);\nschema.define('return', 'array', true);\nschema.define('msg', 'String(255)', false);\n\nschema.setQuery(function($, model) {\n\t/*\n\tvar message = 'Hi, ' + model.name;\n\n\tif (model.age)\n\t\tmessage += '(' + model.age + ')';\n\n\t*/\n\tvar message = 'Hi, this is a Query without model';\n\t$.success(message);\n});",
+				"name": "locations"
+			}
+		},
+		{
+			"id": "1637655605762",
+			"component": "restroute",
+			"tab": "1637240460350",
+			"name": "Route",
+			"x": 36.480987548828125,
+			"y": 32.4782600402832,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637655605769"
+					},
+					{
+						"index": "0",
+						"id": "1637655605799"
+					},
+					{
+						"index": "0",
+						"id": "1637655605843"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "locations: [query]",
+				"color": "gray"
+			},
+			"color": "#6B9CE6",
+			"notes": "### Configuration\n\n- __GET /getlocations__\n- authorization: __false__\n- auto-responding: __false__\n- maximum request data length: __5 kB__\n- timeout for response: __5 seconds__\n- cache: __no cache__\n---\n- schema: __default/locations__\n- operation: __query__\n- response: __query__",
+			"cloning": false,
+			"options": {
+				"cachepolicy": 0,
+				"cacheexpire": "5 minutes",
+				"timeout": 5,
+				"respond": false,
+				"output": "query",
+				"operation": [
+					"query"
+				],
+				"length": 5,
+				"middleware": [],
+				"auth": false,
+				"duration": true,
+				"url": "/getlocations",
+				"method": "GET",
+				"schema": "default/locations",
+				"name": ""
+			}
+		},
+		{
+			"id": "1637655605769",
+			"component": "counter",
+			"tab": "1637240460350",
+			"name": "Counter",
+			"x": 207.30706787109375,
+			"y": 235.60869216918945,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637655605779",
+			"component": "restresponse",
+			"tab": "1637240460350",
+			"name": "Response",
+			"x": 795.5679473876953,
+			"y": 25.130435943603516,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637655605789"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#B0331B",
+			"notes": "",
+			"options": {}
+		},
+		{
+			"id": "1637655605789",
+			"component": "dashboardanalytics",
+			"tab": "1637240460350",
+			"name": "Locations",
+			"x": 965.8288116455078,
+			"y": 23.82608413696289,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637655605833"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5CB36D",
+			"notes": "",
+			"options": {
+				"statsyears": 5,
+				"statsmonths": 12,
+				"statsdays": 14,
+				"statshours": 24,
+				"decimals": 2,
+				"format": "{0} ms",
+				"fn": "next(value);",
+				"type": "avg"
+			}
+		},
+		{
+			"id": "1637655605799",
+			"component": "code",
+			"tab": "1637240460350",
+			"name": "Code",
+			"x": 206,
+			"y": 33.391300201416016,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637655605811"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#656D78",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"code": "repository.url \t\t= FLOW.variables.base_url;\nrepository.token \t= FLOW.variables.token;\nrepository.user \t= FLOW.variables.user;\nrepository.pass \t= FLOW.variables.pass;\nrepository.bearer \t= FLOW.variables.bearer;\n\nparams = value.query;\n\nsend(0, params);",
+				"outputs": 1
+			}
+		},
+		{
+			"id": "1637655605811",
+			"component": "httprequest",
+			"tab": "1637240460350",
+			"name": "HTTP Request",
+			"x": 356,
+			"y": 31.391300201416016,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637655605823"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#5D9CEC",
+			"notes": "",
+			"options": {
+				"keepmessage": true,
+				"keepalive": true,
+				"persistentcookies": true,
+				"stringify": "encoded",
+				"method": "GET",
+				"url": "{url}/getlocations?token={token}",
+				"username": "",
+				"userpassword": ""
+			}
+		},
+		{
+			"id": "1637655605823",
+			"component": "transform",
+			"tab": "1637240460350",
+			"name": "Data Transformation v1",
+			"x": 549,
+			"y": 28.391300201416016,
+			"connections": {
+				"0": [
+					{
+						"index": "0",
+						"id": "1637655605779"
+					}
+				]
+			},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "",
+				"color": "gray"
+			},
+			"color": "#37BC9B",
+			"notes": "",
+			"options": {
+				"fn": "var payload = null;\n\npayload = {\n\t\"result\" : JSON.parse(value.data).result,\n\t\"return\" : JSON.parse(value.data).return,\n\t\"msg\"    : JSON.parse(value.data).msg\n};\n\nnext(payload);",
+				"parser": "custom"
+			}
+		},
+		{
+			"id": "1637655605833",
+			"component": "debug",
+			"tab": "1637240460350",
+			"name": "endFlow",
+			"x": 1134.654884338379,
+			"y": 21,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		},
+		{
+			"id": "1637655605843",
+			"component": "debug",
+			"tab": "1637240460350",
+			"name": "Input",
+			"x": 210.13314819335938,
+			"y": 141,
+			"connections": {},
+			"disabledio": {
+				"input": [],
+				"output": []
+			},
+			"state": {
+				"text": "Enabled",
+				"color": "gray"
+			},
+			"color": "#967ADC",
+			"notes": "",
+			"options": {
+				"type": "data",
+				"repository": false,
+				"enabled": true
+			}
+		}
+	],
+	"variables": "base_url    :\ntoken       :\nuser        :\npass        :\nbearer      :",
+	"version": 623
+}
